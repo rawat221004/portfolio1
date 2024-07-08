@@ -1,0 +1,261 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>rawat.in</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="icon" href="R.logo.png">
+    <script src="https://kit.fontawesome.com/70ba2e3e28.js" crossorigin="anonymous"></script>
+</head>
+<body>
+    <div id="header">
+        <div class="container">
+            <nav>
+                <img class="logo" src="rawat.logo.png">
+                <ul id="sidemenu">
+
+                    <li><a href="#header">Home</a></li>
+                    <li><a href="#about">About</a></li>
+                    <li><a href="#services">Services</a></li>
+                    <li><a href="#portfolio">Portfolio</a></li>
+                    <li><a href="#contact">Contact</a></li>
+
+                    <i class="fa-solid fa-xmark" onclick="closemenu()"></i>
+
+                </ul>
+
+                <i class="fa-solid fa-bars" onclick="openmenu()"></i>
+
+            </nav>
+            <div class="header-text">
+                <p>Software Developer</p>
+                <h1>Hi, I'm <span>Shlok Rawat </span><br> From Mumbai</h1>
+            </div>
+        </div>
+    </div>
+    <!---about--->
+    <div id="about">
+        <div class="container">
+            <div class="row">
+                <div class="about-col-1">
+                    <img src="20240609_023421_0000.png">
+                </div>
+                <div class="about-col-2">
+                    <h1 class="sub-title" >About Me</h1>
+                    <p>An enthusiastic web developer with a passion for creating dynamic and user-friendly web applications. My skill set includes strong communication abilities, logical thinking, critical thinking, and strategic planning. These attributes enable me to effectively collaborate with teams, solve complex problems, and design efficient, scalable solutions.</p>
+
+                    <div class="tab-titles">
+                        <p class="tab-links active-link" onclick="opentab('skills')">Skills</p>
+                        <p class="tab-links" onclick="opentab('experience')">Experience</p>
+                        <p class="tab-links" onclick="opentab('education')">Education</p>
+                    </div>
+                    <div class="tab-contents active-tab" id="skills">
+                        <ul>
+                            <li><span>UI/UX</span><br>Designing intuitive and engaging user interfaces</li>
+                            <li><span>Front-End Development</span><br>Creating responsive and dynamic web page.</li>
+                            <li><span>Back-End Development</span><br>Building server-side logic and database management</li>
+                        </ul>
+                    </div>
+
+                    <div class="tab-contents" id="experience">
+                        <ul>
+                            <li><span>May 2024-Present</span><br>Member at PAC SAKEC</li>                            
+                            <li><span>Jan 2024-Present</span><br>Internship(Volunteer) at THE SKY FOR ALL</li>
+                            <li><span>Sep 2023-Present</span><br>Member at Research Cell SAKEC</li>                           
+                        </ul>
+                    </div>
+
+                    <div class="tab-contents" id="education">
+                        <ul>
+                            <li><span>2023-2027</span><br>Shah & Anchor Kutchhi Engineering College</li>
+                            <li><span>2021-2023</span><br>Pune Vidyarthi Griha's Vidya Bhawan Junior College</li>
+                            <li><span>2011-2021</span><br>All India Education Society's High School</li>
+                        </ul>
+                    </div>
+
+                </div>
+            </div>
+        </div>
+    </div>
+
+
+    <!--services -->
+
+<div id="services">
+    <div class="container">
+        <h1 class="sub-title">My Services</h1>
+        <div class="services-list">
+
+            <div>
+                <i class="fa-solid fa-crop-simple"></i>
+                <h2>UI/UX Design</h2>
+                <p>Professional web design services to create visually appealing and user-friendly websites tailored to your needs.</p>
+                <a href="https://flatironschool.com/blog/what-is-ux-ui-design/" target="_blank">Learn more</a>
+            </div>
+
+            <div>
+                <i class="fa-solid fa-code"></i>
+                <h2>Frontend</h2>
+                <p>Creating captivate user interfaces that delight users and enhance engagement.</p>
+                <a href="https://roadmap.sh/frontend#:~:text=Front%2Dend%20development%20is%20the,the%20dynamic%20behaviour%20and%20interactivity." target="_blank">Learn more</a>
+            </div>
+
+            <div>
+                <i class="fa-solid fa-database" target="_blank"></i>
+                <h2>Backend</h2>
+                <p>Powerful backend systems to fuel your website or application with efficiency and security.</p>
+                <a href="https://roadmap.sh/backend">Learn more</a>
+            </div>
+
+        </div>
+    </div>
+</div>
+
+<!--portfolio-->
+
+<div id="portfolio">
+    <div class="container">
+        <h1 class="sub-title">My Future Projects/Ideas</h1>
+        <div class="work-list">
+
+            <div class="work">
+                <img src="twitter.png">
+                <div class="layer">
+                    <h3>Twitter</h3>
+                    <p>A Twitter clone website with user authentication, tweet functionality, a follow system, and real-time updates, allowing users to connect with people.</p>
+                    <a href="https://x.com/" target="_blank"><i class="fa-solid fa-up-right-from-square"></i></a>
+                </div>
+            </div>
+
+            <div class="work">
+                <img src="spotify.png">
+                <div class="layer">
+                    <h3>Spotify</h3>
+                    <p>A Spotify clone website with user authentication, music streaming, playlist creation, and real-time playback controls, allowing users to enjoy and manage their music library.</p>
+                    <a href="https://open.spotify.com/" target="_blank"><i class="fa-solid fa-up-right-from-square"></i></a>
+                </div>
+            </div>
+
+            <div class="work">
+                <img src="amazon.png">
+                <div class="layer">
+                    <h3>Amazon</h3>
+                    <p>An Amazon clone website with user authentication, product listings, shopping cart, and order management, providing a seamless online shopping experience.</p>
+                    <a href="https://www.amazon.in/" target="_blank"><i class="fa-solid fa-up-right-from-square"></i></a>
+                </div>
+            </div>
+
+        </div>
+        <a href="https://github.com/rawat221004" class="btn" target="_blank">See more</a>
+    </div>
+</div>
+
+
+
+
+
+<!-----------------Contact------------------->
+
+<div id="contact">
+    <div class="container">
+        <div class="row">
+
+            <div class="contact-left">
+                <h1 class="sub-title">Contact Me</h1>
+                <p><i class="fa-solid fa-paper-plane"></i>rawatshlok22@gmail.com</p>
+                <p><i class="fa-solid fa-square-phone"></i>9987 6541 XX</p>
+                    <div class="social-icons">
+                        <a href="https://www.linkedin.com/in/shlok-rawat-411956284/" target="_blank"><i class="fa-brands fa-linkedin"></i></a>
+                        <a href="https://github.com/rawat221004" target="_blank"><i class="fa-brands fa-github"></i></a>
+                        <a href="https://www.instagram.com/rawat17__/" target="_blank"><i class="fa-brands fa-instagram"></i></a>
+                    </div>
+                    <a href="RESUME(CV).pdf" download class="btn btn2">Download CV</a>
+            </div>
+            
+
+            <div class="contact-right">
+                <form name="submit-to-google-sheet">
+                    <input type="text" name="Name" placeholder="Your Name" required>
+                    <input type="email" name="Email" id="Your Email" placeholder="Your Email" required>
+                    <textarea name="Message" rows="6" placeholder="Your Message"></textarea>
+                    <button type="submit" class="btn btn2" >Submit</button>
+                </form>
+                <span id="msg"></span>
+            </div>
+
+
+        </div>
+    </div>
+
+    <div class="copyright">
+        <p>Copyright © Rawat.</p>
+    </div>
+
+
+</div>
+
+
+
+
+
+
+    <script>
+        var tablinks = document.getElementsByClassName("tab-links");
+        var tabcontents = document.getElementsByClassName("tab-contents");
+
+
+        /*whenever we click one another one it should hide the active one*/
+        function opentab(tabname){
+            for(tablink of tablinks){
+                tablink.classList.remove("active-link");
+            }
+
+            for(tabcontent of tabcontents){
+                tabcontent.classList.remove("active-tab");
+            }
+
+            event.currentTarget.classList.add("active-link");   //to put the bar(red one) under the pointed word
+
+            document.getElementById(tabname).classList.add("active-tab");
+        }
+    </script>
+
+
+<script>
+
+    var sidemenu = document.getElementById("sidemenu")
+    
+    function openmenu(){
+        sidemenu.style.right = "0";
+    }
+
+    function closemenu(){
+        sidemenu.style.right = "-200px";
+    }
+
+
+</script>
+
+<script>
+    const scriptURL = 'https://script.google.com/macros/s/AKfycbxxnQbuY6oaUraxkkbSBrSLRU6fEqQkrQpjtkMTWBfc704-L2YMy8CnB4y7E9ElbVCEYg/exec'
+    const form = document.forms['submit-to-google-sheet']
+    const msg = document.getElementById("msg")
+  
+    form.addEventListener('submit', e => {
+      e.preventDefault()
+      fetch(scriptURL, { method: 'POST', body: new FormData(form)})
+        .then(response => {
+            msg.innerHTML = "Message sent successfully"
+            setTimeout(function(){
+                msg.innerHTML = ""
+            },5000)
+            form.reset()
+        })
+        .catch(error => console.error('Error!', error.message))
+    })
+  </script>
+
+
+</body>
+</html>
