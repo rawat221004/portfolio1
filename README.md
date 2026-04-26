@@ -1,4 +1,4 @@
-# portfolio1
+# portfolio1; N0TE : This is not a real portfolio, This is just a college project.
 
 This project is my first attempt at creating an individual portfolio website. I utilized advanced HTML, CSS, and JavaScript techniques to build it. My primary reference for this project was a YouTube tutorial. 
 
